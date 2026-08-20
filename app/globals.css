@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/* Circular Std — body copy font (weight 450 "Book")                   */
+/* Commercial font, not redistributable. Add your licensed files to    */
+/* /public/fonts with these exact names and they'll load automatically.*/
+/* Until then, body text falls back to the system sans stack below.    */
+/* ------------------------------------------------------------------ */
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Book.woff2") format("woff2");
+  font-weight: 450;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  /* ---- Fonts ---- */
+  --font-body: "Circular Std", var(--font-dm-sans), -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-heading: var(--font-dm-sans), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+
+  /* ---- Palette, sampled from the reference design ---- */
+  --color-page: #fffdf9;
+  --color-ink: #1c1b18;
+  --color-ink-soft: #4a463f;
+  --color-muted: #857f73;
+  --color-hairline: #e7e1d4;
+  --color-card: #ffffff;
+  --color-cta: #16321f;
+  --color-cta-hover: #0f2416;
+  --color-tag-bg: #fffdf9;
+
+  /* ---- Layout ---- */
+  --container-page: 1440px;
+  --spacing-section: 100px;
+  --spacing-gap-lg: 68px;
+}
+
+/* Base */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* Prevent long unbroken strings from causing horizontal scroll */
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------ */
+/* Exact type specs — fluid across breakpoints                         */
+/* ------------------------------------------------------------------ */
+
+/* Paragraph / body copy */
+.text-body {
+  font-family: var(--font-body);
+  font-weight: 450;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0%;
+}
+
+@media (min-width: 640px) {
+  .text-body {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-body {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+/* Section / article headings (H2) */
+.text-heading {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0%;
+}
+
+@media (min-width: 640px) {
+  .text-heading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-heading {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
+
+/* "Recent Posts" style display heading */
+.text-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+}
+
+@media (min-width: 640px) {
+  .text-display {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-display {
+    font-size: 28px;
+    line-height: 100%;
+  }
+}
