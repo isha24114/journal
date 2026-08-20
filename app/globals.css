@@ -41,6 +41,9 @@
   /* ---- Palette, sampled from the reference design ---- */
   --color-page: #fffdf9;
   --color-ink: #1c1b18;
+  --color-heading: #2d4635;
+  --color-related: #242824;
+  --color-icon: #d88919;
   --color-ink-soft: #4a463f;
   --color-muted: #857f73;
   --color-hairline: #e7e1d4;
@@ -85,23 +88,18 @@ video {
   font-family: var(--font-body);
   font-weight: 450;
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.7;
+  font-size: 18px;
+  line-height: 32px;
   letter-spacing: 0%;
 }
 
-@media (min-width: 640px) {
-  .text-body {
-    font-size: 17px;
-    line-height: 1.75;
-  }
-}
-
-@media (min-width: 1024px) {
-  .text-body {
-    font-size: 18px;
-    line-height: 32px;
-  }
+.article-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 /* Section / article headings (H2) */
@@ -135,6 +133,36 @@ video {
   font-size: 22px;
   line-height: 1.2;
   letter-spacing: 0%;
+}
+
+.related-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.guide-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+@media (min-width: 640px) {
+  .related-title {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .related-title {
+    font-size: 44px;
+  }
 }
 
 @media (min-width: 640px) {

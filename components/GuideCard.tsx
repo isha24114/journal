@@ -30,7 +30,7 @@ export default function GuideCard({
         </span>
       </div>
 
-      <h4 className="text-heading !text-[15px] sm:!text-base !leading-snug mt-3 sm:mt-4 text-(--color-ink)">
+      <h4 className="guide-title mt-3 sm:mt-4 text-(--color-heading)">
         {title}
       </h4>
       <p className="text-body !text-[13px] sm:!text-sm !leading-6 mt-2 text-(--color-muted) grow">

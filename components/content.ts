@@ -58,7 +58,7 @@ export const repeatHeritageSection = heritageSection;
 
 export const recentPosts = Array.from({ length: 4 }).map(() => ({
   title: "What to eat around gir",
-  date: "19 Aug, 2026",
+  date: "18 Aug, 2026",
   image: "/images/thali-1.jpg",
 }));
 
