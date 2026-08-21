@@ -23,7 +23,23 @@ export default function Sidebar() {
                 <p className="truncate text-sm font-medium text-(--color-ink)">
                   {post.title}
                 </p>
-                <p className="mt-0.5 sm:mt-1 text-xs text-(--color-muted)">{post.date}</p>
+                <p className="mt-0.5 sm:mt-1 inline-flex items-center gap-1 text-xs text-(--color-muted)">
+                  <svg
+                    aria-hidden
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="var(--color-icon)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <rect x="3" y="4" width="18" height="17" rx="2" />
+                    <path d="M16 2v4M8 2v4M3 10h18" />
+                  </svg>
+                  {post.date}
+                </p>
               </div>
             </li>
           ))}
