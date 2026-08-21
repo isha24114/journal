@@ -1,5 +1,45 @@
-{"timestamp":"00:00:04.104","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:06.541","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:52.716","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:05:43.887","source":"Server","level":"LOG","message":"✓ Compiled in 1956ms"}
-{"timestamp":"00:06:23.463","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:03.632","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:07.061","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:00:13.698","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:03:47.190","source":"Server","level":"LOG","message":"✓ Compiled in 614ms"}
+{"timestamp":"00:09:04.374","source":"Server","level":"LOG","message":"✓ Compiled in 909ms"}
+{"timestamp":"00:09:10.196","source":"Server","level":"LOG","message":"✓ Compiled in 254ms"}
+{"timestamp":"00:10:29.872","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:16:09.250","source":"Server","level":"LOG","message":"✓ Compiled in 377ms"}
+{"timestamp":"00:16:18.561","source":"Server","level":"LOG","message":"✓ Compiled in 138ms"}
+{"timestamp":"00:16:27.695","source":"Server","level":"LOG","message":"✓ Compiled in 173ms"}
+{"timestamp":"00:22:23.458","source":"Server","level":"LOG","message":"✓ Compiled in 126ms"}
+{"timestamp":"00:26:16.830","source":"Server","level":"LOG","message":"✓ Compiled in 81ms"}
+{"timestamp":"00:28:06.144","source":"Server","level":"LOG","message":"✓ Compiled in 263ms"}
+{"timestamp":"00:28:19.821","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:29:24.525","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:34:24.938","source":"Server","level":"LOG","message":"✓ Compiled in 751ms"}
+{"timestamp":"00:34:38.627","source":"Server","level":"LOG","message":"✓ Compiled in 194ms"}
+{"timestamp":"00:37:55.566","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:42:33.012","source":"Server","level":"LOG","message":"✓ Compiled in 129ms"}
+{"timestamp":"00:42:40.592","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"00:43:38.346","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:27:36.452","source":"Server","level":"LOG","message":"✓ Compiled in 1520ms"}
+{"timestamp":"01:36:23.252","source":"Server","level":"LOG","message":"✓ Compiled in 245ms"}
+{"timestamp":"01:37:14.145","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:38:38.685","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
+{"timestamp":"01:39:26.803","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:39:26.897","source":"Browser","level":"WARN","message":"Image with src \"/images/safari-jeep.jpg\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"01:39:26.898","source":"Browser","level":"WARN","message":"Image with src \"/images/thali-2.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"01:39:27.175","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/images/safari-jeep.jpg\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\""}
+{"timestamp":"01:39:27.177","source":"Browser","level":"WARN","message":"Image with src \"/images/safari-jeep.jpg\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"01:39:27.177","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/images/thali-2.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\""}
+{"timestamp":"01:39:27.178","source":"Browser","level":"WARN","message":"Image with src \"/images/thali-2.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"01:40:21.789","source":"Server","level":"LOG","message":"✓ Compiled in 80ms"}
+{"timestamp":"01:40:53.722","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:41:21.466","source":"Server","level":"LOG","message":"✓ Compiled in 101ms"}
+{"timestamp":"01:42:22.571","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:44:56.176","source":"Server","level":"LOG","message":"✓ Compiled in 229ms"}
+{"timestamp":"01:45:59.958","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:48:18.279","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:50:53.833","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"01:52:21.280","source":"Server","level":"LOG","message":"✓ Compiled in 219ms"}
+{"timestamp":"01:53:13.366","source":"Server","level":"LOG","message":"✓ Compiled in 100ms"}
+{"timestamp":"01:54:20.368","source":"Server","level":"LOG","message":"✓ Compiled in 225ms"}
+{"timestamp":"01:55:01.637","source":"Server","level":"LOG","message":"✓ Compiled in 249ms"}
+{"timestamp":"01:55:35.272","source":"Server","level":"LOG","message":"✓ Compiled in 290ms"}

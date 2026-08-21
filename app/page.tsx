@@ -32,22 +32,22 @@ export default function Page() {
             </div>
 
             {/* Meta row */}
-            <div className="article-meta mt-4 sm:mt-5 flex w-full max-w-[543px] flex-wrap items-center gap-x-5 gap-y-2 text-xs sm:text-sm text-(--color-heading)">
-              <span className="inline-flex items-center gap-1.5">
+            <div className="article-meta mt-12 sm:mt-16 flex w-full max-w-[543px] flex-wrap items-center gap-x-5 gap-y-2 text-xs sm:text-sm text-(--color-heading) font-bold">
+              <span className="inline-flex items-center gap-1.5 font-bold">
                 <svg aria-hidden width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-icon)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M20 21a8 8 0 0 0-16 0" />
                   <circle cx="12" cy="7" r="4" />
                 </svg>
                 By {article.author}
               </span>
-              <span className="inline-flex items-center gap-1.5">
+              <span className="inline-flex items-center gap-1.5 font-bold">
                 <svg aria-hidden width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-icon)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="12" cy="12" r="9" />
                   <path d="M12 7v5l3 2" />
                 </svg>
                 {article.readTime}
               </span>
-              <span className="inline-flex items-center gap-1.5">
+              <span className="inline-flex items-center gap-1.5 font-bold">
                 <svg aria-hidden width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-icon)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="3" y="4" width="18" height="17" rx="2" />
                   <path d="M16 2v4M8 2v4M3 10h18" />
@@ -56,13 +56,21 @@ export default function Page() {
               </span>
             </div>
 
-            <p className="mt-5 sm:mt-6 text-[11px] sm:text-xs font-semibold tracking-[0.14em] text-(--color-heading) uppercase">
+            <p className="article-eyebrow mt-4 sm:mt-5">
               {article.eyebrow}
             </p>
 
-            <h1 className="article-title mt-2 sm:mt-3 text-(--color-heading)">
+            <h1 className="article-title mt-3 sm:mt-4 text-(--color-heading)">
               {article.title}
             </h1>
+
+            <p className="text-body mt-4 sm:mt-5 text-(--color-ink-soft)">
+              Beyond the forest, Saurashtra holds a quieter story in stone, sea air and pilgrimage paths—one that<br />invites you to travel with attention.
+            </p>
+
+            <h2 className="section-heading-custom mt-[50px]">
+              The forest is only one chapter of this landscape.
+            </h2>
 
             <div className="mt-5 sm:mt-6 space-y-3 sm:space-y-4">
               {article.intro.map((p, i) => (
@@ -117,22 +125,36 @@ export default function Page() {
         {/* -------------------------------------------------------------- */}
         {/* Related guides                                                  */}
         {/* -------------------------------------------------------------- */}
-        <section className="mt-12 sm:mt-16 md:mt-20 border-t border-(--color-hairline) pt-10 sm:pt-12 md:pt-14">
-          <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-end sm:justify-between gap-4">
+        <section className="mt-12 sm:mt-16 md:mt-20 pt-10 sm:pt-12 md:pt-14">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-                <p className="text-[11px] sm:text-xs font-semibold tracking-[0.14em] text-(--color-related) uppercase">
-                Related Guides
+              <p className="related-eyebrow">
+                RELATED GUIDES
               </p>
-              <h2 className="related-title mt-1.5 sm:mt-2 text-(--color-heading)">
+              <h2 className="related-title mt-2">
                 Keep exploring GIR
               </h2>
             </div>
 
             <a
               href="#"
-              className="inline-flex self-start rounded-full border border-(--color-hairline) px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm font-medium text-(--color-ink) transition-colors hover:bg-(--color-card)"
+              className="btn-destination-guides self-start sm:self-auto inline-flex items-center justify-center gap-2.5"
             >
-              Destination Guides →
+              <span>DESTINATION GUIDES</span>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.75"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
             </a>
           </div>
 
