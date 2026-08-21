@@ -14,12 +14,12 @@ import {
 export default function Page() {
   return (
     <main className="bg-(--color-page)">
-      <div className="mx-auto max-w-(--container-page) px-4 py-10 sm:px-6 sm:py-12 md:px-10 md:py-14 lg:px-[60px] lg:py-16 xl:px-[100px]">
-        <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-10 xl:gap-10">
+      <div className="mx-auto max-w-[1440px] px-4 py-10 sm:px-6 md:px-8 lg:px-8 xl:px-10 2xl:px-[100px] lg:py-14 xl:py-16">
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-8 xl:gap-10">
           {/* ---------------------------------------------------------- */}
           {/* Article column                                             */}
           {/* ---------------------------------------------------------- */}
-          <article className="min-w-0 flex-1 order-2 lg:order-1 xl:w-[880px] xl:flex-none">
+          <article className="min-w-0 flex-1 order-2 lg:order-1 2xl:w-[880px] 2xl:flex-none">
             <div className="relative aspect-[16/10] sm:aspect-[16/9] xl:aspect-[880/494] w-full overflow-hidden rounded-xl sm:rounded-2xl xl:rounded-[18px]">
               <Image
                 src={article.heroImage}
@@ -115,7 +115,7 @@ export default function Page() {
           {/* ---------------------------------------------------------- */}
           {/* Sidebar — full width on mobile, sticky on desktop          */}
           {/* ---------------------------------------------------------- */}
-          <div className="order-1 lg:order-2 w-full max-w-[320px] mx-auto lg:mx-0 lg:w-[300px] xl:w-[320px] shrink-0">
+          <div className="order-1 lg:order-2 w-full max-w-[320px] mx-auto lg:mx-0 lg:w-[280px] xl:w-[320px] shrink-0">
             <div className="lg:sticky lg:top-8">
               <Sidebar />
             </div>
@@ -158,7 +158,7 @@ export default function Page() {
             </a>
           </div>
 
-          <div className="mt-8 sm:mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4">
+          <div className="mt-8 sm:mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 justify-items-center">
             {relatedGuides.map((guide, i) => (
               <GuideCard key={i} {...guide} />
             ))}
